@@ -5,10 +5,10 @@ import org.junit.Ignore
 
 class Task_1KtTest {
 
-//    @Test
-//    @Ignore
-//    fun formatResult() {
-//    }
+    @Test
+    @Ignore
+    fun formatResult() {
+    }
 
     @Test
     fun transferCalc() {
@@ -71,8 +71,6 @@ class Task_1KtTest {
     @Test
     fun vkPay_default() {
         //arrange
-//        val transferSum = 75020_00
-//        val amount = 20100_00
         val expectedTax = "Лимит по карте превышен"
 
         //act
