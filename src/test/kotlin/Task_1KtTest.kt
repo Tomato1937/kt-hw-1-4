@@ -69,18 +69,6 @@ class Task_1KtTest {
     }
 
     @Test
-    fun vkPay_default() {
-        //arrange
-        val expectedTax = "0 руб. 00 коп."
-
-        //act
-        val result = vkPay(transferSum = 0, amount = 0)
-
-        //assert
-        assertEquals(expectedTax, result)
-    }
-
-    @Test
     fun masterCom_shouldTestLess75000() {
         //arrange
         val transferSum = 74020_00
