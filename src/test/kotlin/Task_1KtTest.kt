@@ -71,10 +71,10 @@ class Task_1KtTest {
     @Test
     fun vkPay_default() {
         //arrange
-        val expectedTax = "Лимит по карте превышен"
+        val expectedTax = "0 руб. 00 коп."
 
         //act
-        val result = vkPay(transferSum = transferSum, amount = amount)
+        val result = vkPay(transferSum = 0, amount = 0)
 
         //assert
         assertEquals(expectedTax, result)
